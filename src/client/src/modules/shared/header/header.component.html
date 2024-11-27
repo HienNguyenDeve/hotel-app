@@ -1,0 +1,18 @@
+<header class="bg-blue-500 text-white flex justify-between items-center">
+    <!-- Brand logo -->
+    <a [routerLink]="['/']" class="px-4 text-2xl font-bold">Hotel App</a>
+    <!-- Menu bar -->
+    <nav class="navbar">
+        <ul class="nav-list flex justify-center items-center">
+            <li class="nav-item"><a [routerLink]="['/']" class="nav-link block p-4 hover:bg-blue-700">Home</a></li>
+            <li class="nav-item"><a [routerLink]="['/manager']" class="nav-link block p-4 hover:bg-blue-700">Management</a></li>
+            <li class="nav-item"><a [routerLink]="['/about']" class="nav-link block p-4 hover:bg-blue-700">About</a></li>
+            <li class="nav-item"><a [routerLink]="['/contact']" class="nav-link block p-4 hover:bg-blue-700">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Profile menu -->
+    <ul class="profile-menu flex justify-center items-center">
+        <li class="nav-item"><a [routerLink]="['/login']" class="nav-link block p-4 hover:bg-blue-700">Login</a></li>
+        <li class="nav-item"><a [routerLink]="['/register']" class="nav-link block p-4 hover:bg-blue-700">Register</a></li>
+    </ul>
+</header>
