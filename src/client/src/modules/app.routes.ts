@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { ManagerLayoutComponent } from './shared/layouts/manager-layout/manager-layout.component';
-import { CustomerLayoutComponent } from './shared//layouts/customer-layout/customer-layout.component';
+import { CustomerLayoutComponent } from './shared/layouts/customer-layout/customer-layout.component';
 
 export const routes: Routes = [
     {
