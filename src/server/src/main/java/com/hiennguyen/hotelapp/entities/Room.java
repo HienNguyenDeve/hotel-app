@@ -27,9 +27,12 @@ public class Room {
     @Column(unique = true, nullable = false, columnDefinition = "NAVARCHAR(255)")
     private String number;
 
+    @Column(name="type", nullable=false)
     private RoomType type;
 
+    @Column(name="capacity", nullable=false, columnDefinition="INT")
     private int capacity;
 
+    @Column(name="price", nullable=false, columnDefinition="FLOAT")
     private double price;
 }
