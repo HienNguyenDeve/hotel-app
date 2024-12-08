@@ -24,7 +24,7 @@ public class Room {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column(unique = true, nullable = false, columnDefinition = "NAVARCHAR(255)")
+    @Column(unique = true, nullable = false, columnDefinition = "NVARCHAR(255)")
     private String number;
 
     @Column(name="type", nullable=false)
